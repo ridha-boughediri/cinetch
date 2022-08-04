@@ -1,0 +1,217 @@
+header .navH {
+    width: 100%;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.addFav {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD52D;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.addFav:hover {
+    background-color: white;
+    color: #FFD52D;
+}
+
+.addFav2 {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD52D;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+.addFav2:hover {
+    background-color: white;
+    color: #FFD52D;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article img {
+    width: 75%;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+}
+
+article h1 {
+    font-size: 50px;
+    color: white;
+    text-decoration: underline #FFD52D;
+    margin-top: 50px;
+}
+
+article .over {
+    text-align: center;
+}
+
+article .rel {
+    font-size: 45px;
+}
+
+article .rank {
+    font-size: 45px;
+}
+
+/* Section Commentaires */
+
+.com {
+    display: flex;
+    flex-direction: column;
+}
+
+.com h3 {
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.addCom {
+    display: flex;
+    flex-direction: column;
+}
+
+.addCom h4 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.addCom textarea {
+    width: 30%;
+    height: 350px;
+    margin-left: 35%;
+}
+
+.addCom textarea::placeholder {
+    text-align: center;
+    top: 50%;
+}
+
+section form #sub {
+    width: 100px;
+    height: 50px;
+    margin-left: 780px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFD52D;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+section form #sub:hover {
+    color: #FFD52D;
+    background-color: white;
+}
+
+hr {
+    height: 2vh;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.similar {
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.similar img {
+    padding: 10px;
+    width: 200px;
+    height: 350px;
+}
+
+h1 {
+    color: white;
+}
+
+@media all and (max-width: 479px) {
+    .addFav {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .addFav2 {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    #addComment {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    section form #sub {
+        margin-left: 40%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 720px)  {
+    .addFav {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .addFav2 {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    #addComment {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    section form #sub {
+        margin-left: 40%;
+    }
+
+}
+
+@media all and (min-width: 721px) and (max-width: 900px) {
+    #addComment {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    section form #sub {
+        margin-left: 40%;
+    }
+
+    #addComment {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    section form #sub {
+        margin-left: 40%;
+    }
+}
