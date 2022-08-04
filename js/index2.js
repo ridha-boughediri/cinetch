@@ -173,28 +173,28 @@ document.addEventListener("DOMContentLoaded", event => {
 
 
 
- <div class="film">
-    <h1>Les films les plus populaires</h1> 
-</div>
+//  <div class="film">
+//     <h1>Les films les plus populaires</h1> 
+// </div>
 
-<section id="main">
-    <div class="movie">
-        <img src="https://a.cdn-hotels.com/gdcs/production101/d154/ee893f00-c31d-11e8-9739-0242ac110006.jpg" alt="image">
-        <div class="movie-info">
-            <h3>movie</h3>
-        </div>
-    </div>
-</section>  
+// <section id="main">
+//     <div class="movie">
+//         <img src="https://a.cdn-hotels.com/gdcs/production101/d154/ee893f00-c31d-11e8-9739-0242ac110006.jpg" alt="image">
+//         <div class="movie-info">
+//             <h3>movie</h3>
+//         </div>
+//     </div>
+// </section>  
 
-<div class="series">
-    <h1>Les séries les plus populaires</h1>
-</div>
+// <div class="series">
+//     <h1>Les séries les plus populaires</h1>
+// </div>
 
-<section id="main2">
-    <div class="serie">
-    <img src="https://a.cdn-hotels.com/gdcs/production101/d154/ee893f00-c31d-11e8-9739-0242ac110006.jpg" alt="image">
-        <div class="serie-info">
-            <h3>serie</h3>
-        </div>
-    </div>
-</section>
+// <section id="main2">
+//     <div class="serie">
+//     <img src="https://a.cdn-hotels.com/gdcs/production101/d154/ee893f00-c31d-11e8-9739-0242ac110006.jpg" alt="image">
+//         <div class="serie-info">
+//             <h3>serie</h3>
+//         </div>
+//     </div>
+// </section>
