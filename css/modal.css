@@ -46,7 +46,8 @@ Login/Signup modal window - by CodyHouse.co
   position: relative;
   z-index: 1;
   height: 50px;
-  background: #343642;
+  background: #3d52d1;
+  
 }
 
 .cd-main-header::after {

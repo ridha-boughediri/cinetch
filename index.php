@@ -20,6 +20,8 @@ ob_start();
 
     </article>
 
+    
+
     <article class="movies-container trending-shows">
         <h1>Séries actuelles</h1>
         <div class="movies-grid">
