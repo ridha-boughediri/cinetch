@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-color: #151515;
+    background-color: #add617;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -14,7 +14,7 @@ body {
 
 .card {
     width: clamp(150px, 95vw, 250px);
-    box-shadow: 0 0 .5rem rgba(255, 0, 0, 1);
+    box-shadow: 0 0 .5rem rgb(10, 116, 169);
     outline: 2px solid rgba(255, 0, 0, .6);
     overflow: hidden;
     color: #fff;
@@ -37,7 +37,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 30%;
-    background-image: linear-gradient(to top, #151515, transparent);
+    background-image: linear-gradient(to top, #1941de, transparent);
 }
 .info {
     padding: 2rem 1rem 1rem;

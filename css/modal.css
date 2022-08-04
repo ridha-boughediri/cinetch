@@ -15,7 +15,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "PT Sans", sans-serif;
-  color: #505260;
+  color: #e49013;
   background-color: white;
 }
 
@@ -116,7 +116,7 @@ Login/Signup modal window - by CodyHouse.co
   height: 50px;
   line-height: 50px;
   padding-left: 5%;
-  background: #292a34;
+  background: #2f3ab5;
   border-top: 1px solid #3b3d4b;
   color: #FFF;
 }
